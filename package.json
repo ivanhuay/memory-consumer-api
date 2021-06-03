@@ -1,0 +1,21 @@
+{
+  "name": "memory-consumer-api",
+  "version": "1.0.0",
+  "description": "Memory consumer API for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --max-old-space-size=10240 index.js"
+  },
+  "keywords": [
+    "memory",
+    "consumer",
+    "api"
+  ],
+  "author": "ivanhuay@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "memory-consumer": "^1.0.4"
+  }
+}
